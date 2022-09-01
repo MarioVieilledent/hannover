@@ -1,0 +1,8 @@
+v var1 i = -42000;
+v var2 u = 20;
+v var3 f = 123.456;
+v var3 c = 's';
+v var4 b = t;
+v var5 s = "Du texte";
+
+p(var1);
