@@ -1,3 +1,5 @@
 PazuLang/target
 
 *.exe
+
+client/node_modules
