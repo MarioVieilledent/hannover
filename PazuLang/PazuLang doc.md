@@ -2,13 +2,12 @@
 
 ## Introduction
 
-## Mots clés réservés
+## Keywords
 
-|mot clé|signification|
+|keyword|meaning|
 | --- | --- |
 |a|array|
 |c|constant|
-|v|variable|
 |e|else|
 |f|function|
 |f|false|
@@ -18,39 +17,41 @@
 |p|print function|
 |s|scan function|
 |t|true|
+|v|variable|
 
 ## Variables
 
-Déclaration
+Declaration
 
 ```
-v <nom>: <type>;
+v <name> <type>
 ```
 
 Affectation
 
 ```
-<nom> = <valeur>;
+<nom> = <value>
 ```
 
-Declaration et affectation
+Declaration and affectation
 
 ```
-v <nom>: <type> = <valeur>
+v <name> <type> = <value>
 ```
 
-## Afficher valeur en console
+## Print value
 
 ```
-v age: i = 23;
-s.print(age);
+v age i = 23
+p(age)
 ```
 
-## Types primitifs
+## Types
 
-|mot clé|type|valeurs possibles|
+|type keyword|type|value example|
 | --- | --- | --- |
-|i|entier signé à 32 ou 64 bits (dépend de l'architecture)|-420, 69, etc.|
-|u|entier non signé sur 8 bits|0 à 255|
-|c|char codé en unicode sur 2 octets|'a', '6', etc.|
-|b|booléen|t ou f|
+|u|8 bits unsigned integer|0 to 255|
+|i|32 or 64 bits signed integer (depending on arch)|-420, 86000|
+|f|real number on 64 bits|1.5, -45.8652|
+|c|Unicode character|'a', '6', etc.|
+|b|Boolean|t or f|

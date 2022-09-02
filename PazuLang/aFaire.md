@@ -1,11 +1,12 @@
 # Process d'interpretation
 
-1) Vérifie que le fichier soit en `.pz`
-2) Lit le fichier
-3) Supprimer tous les commentaires ?
-4) Enregistre toutes les fonctions
-5) Interprète ligne par ligne la fonction main() ?
+- Vérifie que le fichier soit en `.pz`
+- Lit le fichier
+- Interprète ligne par ligne
+- Ignore les commentaires et les lignes vides
+- Enregistre en mémoire les variables
+- Affiche les valeurs avec la fonction p()
 
-# Commandes
+## A faire
 
-- `pz start <file.pz>` Exécute du code en 
+Continuer à coder...

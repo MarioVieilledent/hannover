@@ -1,8 +1,17 @@
-v var1 i = -42000;
-v var2 u = 20;
-v var3 f = 123.456;
-v var3 c = 's';
-v var4 b = t;
-v var5 s = "Du texte";
+// Commentary
 
-p(var1);
+v myInteger i = -42000
+v myUint8 u = 20
+v myFloat f = 123.456
+v aChar c = 'Z'
+v aBoolean b = t
+v helloString s = "Hello"
+v aString s = "World!"
+
+p(myInteger)
+p(myUint8)
+p(helloString)
+p(aString)
+p(aBoolean)
+p(myFloat)
+p(aChar)
